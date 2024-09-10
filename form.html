@@ -1,0 +1,65 @@
+<html>
+<head> 
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniware</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="image/logo.png"> </a>
+
+            <div class="link" id="navlink">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+
+
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="catagories.html">Catagories</a></li>
+                    <li><a href="new.html">New</a></li>
+                    <li><a href="about.html">About Us</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        
+        <div class="formok">
+            <div style="text-align: center;", >
+                <h1>Register</h1>
+                <p>For more information on anything you should register here</p><br><br><br><br><br><br>
+            </div>
+            <form style="text-align: center" action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="2f35ff5f-5ef4-4d19-88ba-0ed3e97b961e">
+
+                <label for="fname" style="display: inline-block; width: 100px; text-align: right;">First name:</label>
+                <input type="text" name="fname" id="fname" style="margin-bottom: px;" required><br><br>
+                
+                <label for="lname" style="display: inline-block; width: 100px; text-align: right;">Last name:</label>
+                <input type="text" name="lname" id="lname" style="margin-bottom: 5px;" required><br><br>
+                
+                <label for="email" style="display: inline-block; width: 100px; text-align: right;">Email:</label>
+                <input type="text" name="email" id="email" style="margin-bottom: 5px;" required><br><br>
+                
+                <label for="pass" style="display: inline-block; width: 100px; text-align: right;">Password:</label>
+                <input type="password" name="pass" id="pass" style="margin-bottom: 5px;" required><br><br>
+                
+                <input type="submit" value="Register" style="margin-top: 1%;">
+            </form>
+
+
+
+
+
+
+
+
+
+
+
+
+                
